@@ -10,3 +10,4 @@ This UI automation is using [Salad](https://github.com/aldochristiaan/salad), an
 - Install appium-doctor `$ npm install -g appium-doctor`
 - Check your appium setup by running: `$ appium-doctor`
 - Install IntelliJ IDEA
+- Download apk [here](https://github.com/saucelabs/my-demo-app-android/releases/download/1.0.13/mda-1.0.13-15.apk)
