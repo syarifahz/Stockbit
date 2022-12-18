@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation fileTree(dir: 'libs', include: ['*.jar'])
+//    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    implementation 'io.cucumber:cucumber-java:7.10.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.10.0'
+//    implementation 'io.cucumber:cucumber-core:6.10.2'
+//    implementation 'io.cucumber:cucumber-gherkin:6.10.2'
+//    implementation 'io.cucumber:cucumber-testng:6.10.2'
+}
+
+//test {
+//    useJUnitPlatform()
+//    testLogging {
+//        events "passed", "skipped", "failed"
+//    }
+//}
+
